@@ -1,0 +1,18 @@
+# Used for language completion
+
+# Top-level classpaths
+-cp src
+-cp test
+
+# Provide a path to suppress errors in Res macros
+-D resourcesPath=test/assets
+
+# Classpaths for apps. Must include all apps for code completion.
+-cp app/example/src
+
+# The superset of all libraries used
+./app-common.hxml
+./app-common-hl.hxml
+./app-common-c.hxml
+
+-hl bin/ignore.hl

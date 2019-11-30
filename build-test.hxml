@@ -1,0 +1,15 @@
+# Build tests for engine
+
+./app-common.hxml
+./app-common-hl.hxml
+
+-cp src
+-cp test
+
+# Provide a path to suppress errors in Res macros
+-D resourcesPath=test/assets
+
+-main Main
+-debug
+
+-hl bin/test.hl

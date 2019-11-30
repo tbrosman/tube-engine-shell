@@ -1,0 +1,11 @@
+../../app-common.hxml
+../../app-common-hl.hxml
+
+-cp src
+-cp ../../src
+-D resourcesPath=assets
+
+-main example.ExampleApp
+-debug
+
+-hl bin/example.hl

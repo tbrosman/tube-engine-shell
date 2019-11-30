@@ -1,0 +1,6 @@
+# Libraries used in all targets
+
+-lib heaps
+
+# Unit test framework
+-lib hx3compat

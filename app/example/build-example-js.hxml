@@ -1,0 +1,13 @@
+../../app-common.hxml
+
+-cp src
+-cp ../../src
+-D resourcesPath=assets
+
+-main example.ExampleApp
+-debug
+
+-js bin/example.js
+
+# TODO: Currently only works on Windows
+-cmd copy web_assets\index.html bin

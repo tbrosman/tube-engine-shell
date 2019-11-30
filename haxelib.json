@@ -1,0 +1,16 @@
+{
+    "name": "tube-engine-shell",
+    "url" : "https://github.com/tbrosman/tube-engine-shell/",
+    "license": "MIT",
+    "tags": [],
+    "description": "Demonstrates a pattern for structuring Heaps projects with multiple small sample/test apps, a core engine library, and tests. Also documents some of the plumbing needed for cross-platform builds.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["tbrosman"],
+    "dependencies": {
+      "hashlink" :"0.1.0",
+      "heaps": "1.7.0",
+      "hx3compat": "1.0.3"
+    }
+  }

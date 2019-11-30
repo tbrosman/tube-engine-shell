@@ -1,0 +1,5 @@
+*.hl
+/app/**/bin
+/bin
+/.haxelib
+/node_modules

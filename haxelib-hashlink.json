@@ -1,0 +1,15 @@
+{
+    "name": "tube-engine-shell-hashlink",
+    "url" : "https://github.com/tbrosman/tube-engine-shell/",
+    "license": "MIT",
+    "tags": [],
+    "description": "Install locally using haxelib to get dependencies needed to build in HashLink. Separated from the main haxelib.json to avoid restricting consumers to HashLink projects/to be able to build with hl* dependencies.",
+    "version": "0.0.1",
+    "classPath": "src/",
+    "releasenote": "Initial release.",
+    "contributors": ["tbrosman"],
+    "dependencies": {
+      "hlopenal": "1.5.0",
+      "hlsdl": "1.10.0"
+  }
+}
